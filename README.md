@@ -13,9 +13,14 @@ manager, or runtime dependency.
 ├── index.html
 ├── privacy-policy.html
 ├── eula.html
+├── PrivacyPolicy.md
+├── EULA.md
 ├── styles.css
 └── README.md
 ```
+
+`PrivacyPolicy.md` and `EULA.md` contain the source legal text presented by the
+corresponding HTML pages.
 
 ## Run Locally
 
