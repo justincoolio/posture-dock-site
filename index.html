@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Download Posture-Dock and view its Privacy Policy and End User License Agreement."
+      content="Posture-Dock turns compatible AirPods into a gentle posture coach, with live feedback, alerts, and session history."
     >
     <meta name="theme-color" content="#f5f5f7">
     <meta property="og:title" content="Posture-Dock">
     <meta
       property="og:description"
-      content="Download Posture-Dock on the App Store."
+      content="Real-time posture feedback powered by your AirPods."
     >
     <meta property="og:type" content="website">
     <title>Posture-Dock</title>
@@ -26,6 +26,7 @@
           Posture-Dock
         </a>
         <nav aria-label="Primary navigation">
+          <a href="#screenshots">Screenshots</a>
           <a href="privacy-policy.html">Privacy Policy</a>
           <a href="eula.html">EULA</a>
         </nav>
@@ -33,15 +34,85 @@
     </header>
 
     <main id="main-content" class="home-main">
-      <div class="container home-content">
-        <h1>Download Posture-Dock on the App Store.</h1>
-        <a
-          class="button button-primary"
-          href="https://apps.apple.com/app/posture-dock/id0000000000"
-        >
-          Download on the App Store
-        </a>
-      </div>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Your AirPods. Your posture coach.</p>
+            <h1>Sit better.<br><span>Feel the difference.</span></h1>
+            <p class="hero-description">
+              Posture-Dock uses the motion sensors in your AirPods to spot head
+              drift and give you a gentle nudge when it is time to reset.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                href="https://apps.apple.com/app/posture-dock/id0000000000"
+              >
+                Download on the App Store
+              </a>
+              <a class="text-button" href="#screenshots">See it in action</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Posture-Dock app previews">
+            <div class="hero-glow"></div>
+            <img
+              class="hero-screen hero-screen-left"
+              src="app-screenshots/posture-alerts.jpeg"
+              alt="Posture-Dock showing a posture alert"
+            >
+            <img
+              class="hero-screen hero-screen-center"
+              src="app-screenshots/posture-tracking.jpeg"
+              alt="Posture-Dock showing live aligned posture"
+            >
+            <img
+              class="hero-screen hero-screen-right"
+              src="app-screenshots/posture-progress.jpeg"
+              alt="Posture-Dock session progress summary"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="screenshots" class="showcase" aria-labelledby="showcase-title">
+        <div class="container showcase-heading">
+          <p class="eyebrow">Simple by design</p>
+          <h2 id="showcase-title">A clearer view of your posture.</h2>
+          <p>Calibrate in seconds, get feedback as you work, and see how each session went.</p>
+        </div>
+
+        <div class="screenshot-scroll" tabindex="0" aria-label="App screenshot gallery">
+          <figure class="screenshot-card">
+            <img src="app-screenshots/posture-tracking.jpeg" alt="Live posture tracking with AirPods" loading="lazy">
+          </figure>
+          <figure class="screenshot-card">
+            <img src="app-screenshots/posture-calibration.jpeg" alt="Quick posture calibration" loading="lazy">
+          </figure>
+          <figure class="screenshot-card">
+            <img src="app-screenshots/posture-drift.jpeg" alt="Slight head drift feedback" loading="lazy">
+          </figure>
+          <figure class="screenshot-card">
+            <img src="app-screenshots/posture-alerts.jpeg" alt="Gentle posture alert" loading="lazy">
+          </figure>
+          <figure class="screenshot-card">
+            <img src="app-screenshots/posture-progress.jpeg" alt="Posture session progress and breakdown" loading="lazy">
+          </figure>
+        </div>
+      </section>
+
+      <section class="closing-cta">
+        <div class="container closing-card">
+          <p class="eyebrow">Build a better habit</p>
+          <h2>Good posture starts with noticing.</h2>
+          <a
+            class="button button-primary"
+            href="https://apps.apple.com/app/posture-dock/id0000000000"
+          >
+            Get Posture-Dock
+          </a>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
